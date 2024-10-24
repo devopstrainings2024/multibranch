@@ -7,21 +7,20 @@ pipeline
          { 
           steps
           {
-          //CODE
-          }
+/* no content */          }
          }
         stage("contbuild")
         { 
         steps
         {
-        sh 'mvn package'
+/* no content */
         }
         }
         stage("contdepl")
         { 
          steps
          {
-
+/* no content */
           }
         }
       }
